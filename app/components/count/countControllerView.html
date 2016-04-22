@@ -1,0 +1,17 @@
+<section>
+  
+  <div ng-controller="CounterController">
+    <button type="button" ng-click="countNumber()"></button>
+    Controller one: {{number}}
+  </div>
+
+  <div ng-controller="CounterController">
+    <button type="button" ng-click="countNumber()"></button>
+    Controller one in a different 'div' sharing object {{number}}
+  </div>
+
+  <div ng-controller="ShowController">
+    <button type="button" ng-click-"countTwo()"></button>
+    Controller Two sharting the same object: {{number}}
+  </div>
+</section>
