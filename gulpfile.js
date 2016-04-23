@@ -66,11 +66,6 @@ gulp.task('bundle:test', () => {
   .pipe(gulp.dest('./tests'));
 });
 
-// gulp.task('eslint', () => {
-//   gulp.src(paths)
-//   .pipe(lint())
-//   .pipe(lint.format());
-// });
 
 gulp.task('default', ['del-build', 'copy-html', 'copy-css', 'webpack'])
 // gulp.task('default', ['eslint', 'del-build', 'webpack', 'bundle:test', 'copy-html', 'copy-css']);
